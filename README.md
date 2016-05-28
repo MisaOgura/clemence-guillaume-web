@@ -13,7 +13,7 @@ Clémence is a London-based aspiring designer, originally from France. She neede
 ---
 
 Frontend ( TBC )
-+ React.js or AngularJS
++ React or AngularJS
 
 Backend
 + Node.js
