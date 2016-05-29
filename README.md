@@ -12,11 +12,14 @@ Clémence is a London-based aspiring designer, originally from France. She neede
 ### Technology
 ---
 
-Frontend ( TBC )
-+ React or AngularJS
+Frontend
++ AngularJS
 
 Backend
 + Node.js
+
+Database
++ MongoDB
 
 Deployment
 + Heroku with Godaddy domain
