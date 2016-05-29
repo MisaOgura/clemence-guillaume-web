@@ -24,6 +24,11 @@ Database
 Deployment
 + Heroku with Godaddy domain
 
+### Resource
+---
++ Create RESTful API with Node and MongoDB : [Online tutorial](https://codeforgeek.com/2015/08/restful-api-node-mongodb/)
++ Postman : [Official docs](https://www.getpostman.com/docs/)
+
 ### Authour
 ---
 
