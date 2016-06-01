@@ -22,7 +22,24 @@ router.route("/users")
       }
       res.json(response);
     });
-  });
+  })
+  .post(function(req,res){
+        var db = new mongoOp();
+        var response = {};
+        db.userEmail = req.body.email;
+        db.userPassword =  require('crypto')
+                          .createHash('sha256')
+                          .update(req.body.password)
+                          .digest('base64');
+        db.save(function(err){
+            if(err) {
+                response = {"error" : true,"message" : "Error adding data"};
+            } else {
+                response = {"error" : false,"message" : "Data added"};
+            }
+            res.json(response);
+        });
+    });
 
 app.use('/',router);
 
