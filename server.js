@@ -75,6 +75,23 @@ router.route("/users/:id")
                 })
             }
         });
+    })
+    .delete(function(req,res){
+        var response = {};
+        mongoOp.findById(req.params.id,function(err,data){
+            if(err) {
+                response = {"error" : true,"message" : "Error fetching data"};
+            } else {
+                mongoOp.remove({_id : req.params.id},function(err){
+                    if(err) {
+                        response = {"error" : true,"message" : "Error deleting data"};
+                    } else {
+                        response = {"error" : true,"message" : "Data associated with "+req.params.id+"is deleted"};
+                    }
+                    res.json(response);
+                });
+            }
+        });
     });
 
 app.use('/',router);
