@@ -1,13 +1,12 @@
 {
-  "name": "cg_web",
+  "name": "cgweb",
   "version": "1.0.0",
-  "description": "Website for Clemence Guillaume",
+  "description": "Website for Clémence Guillaume",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "karma": "karma start test/karma.conf.js",
-    "protractor": "protractor test/protractor.conf.js"
+    "unit": "karma start test/karma.conf.js",
+    "feature": "protractor test/protractor.conf.js"
   },
   "repository": {
     "type": "git",

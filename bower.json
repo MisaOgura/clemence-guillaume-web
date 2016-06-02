@@ -1,6 +1,6 @@
 {
-  "name": "cg_web",
-  "description": "Website for Clemence Guillaume",
+  "name": "cgweb",
+  "description": "Website for Clémence Guillaume",
   "main": "index.js",
   "authors": [
     "Misa Ogura"
