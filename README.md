@@ -19,7 +19,9 @@ Backend
 + Node.js
 
 Testing
-+ Mocha
++ Karma
++ Protractor
++ Mocha with Chai
 
 Database
 + MongoDB
@@ -39,6 +41,8 @@ Deployment
 + Create RESTful API with Node and MongoDB : [Online tutorial](https://codeforgeek.com/2015/08/restful-api-node-mongodb/)
 + Another very good RESTful API with Node and MongoDB ( more details on concept) : [Adrian Mejia’s Blog](http://adrianmejia.com/blog/2014/10/01/creating-a-restful-api-tutorial-with-nodejs-and-mongodb)
 + Postman : [Official docs](https://www.getpostman.com/docs/)
++ Store images in MongoDB : [GridFS](https://docs.mongodb.com/manual/core/gridfs/)
++ Store/display an image in mongodb using mongoose/express : [Example code](https://gist.github.com/aheckmann/2408370)
 
 ##### Testing :
   + [TDD with Mocha](http://webapplog.com/tdd/)
