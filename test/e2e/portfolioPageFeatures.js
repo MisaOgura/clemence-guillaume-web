@@ -10,7 +10,7 @@ describe('CGWeb: Portfolio page', function() {
 
   it('has a link to the Home page', function() {
     linkToHome = element(by.id('home-link'));
-    homeUrl = 'http://localhost:8080/portfolio'
+    homeUrl = 'http://localhost:8080/'
     linkToHome.click().then(function() {
       expect(browser.getCurrentUrl()).toEqual(homeUrl)
     });
