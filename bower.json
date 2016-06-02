@@ -1,0 +1,24 @@
+{
+  "name": "cgweb",
+  "description": "Website for Clémence Guillaume",
+  "main": "index.js",
+  "authors": [
+    "Misa Ogura"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/MisaOgura/clemence-guillaume-web",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.6"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.6"
+  }
+}

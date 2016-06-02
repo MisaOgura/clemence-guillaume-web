@@ -29,10 +29,18 @@ Deployment
 
 ### Resource
 ---
+
+##### Frontend :
++ AngularJS with Node & MongoDB : [Adrian Mejia’s Blog](http://adrianmejia.com/blog/2014/09/28/angularjs-tutorial-for-beginners-with-nodejs-expressjs-and-mongodb/)
++ AngularJS directives : [sitepoint post](https://www.sitepoint.com/practical-guide-angularjs-directives/)
+
+##### Backend :
 + Basic intro to MongoDB : [Official docs](https://mongodb.github.io/node-mongodb-native/api-articles/nodekoarticle1.html)
 + Create RESTful API with Node and MongoDB : [Online tutorial](https://codeforgeek.com/2015/08/restful-api-node-mongodb/)
++ Another very good RESTful API with Node and MongoDB ( more details on concept) : [Adrian Mejia’s Blog](http://adrianmejia.com/blog/2014/10/01/creating-a-restful-api-tutorial-with-nodejs-and-mongodb)
 + Postman : [Official docs](https://www.getpostman.com/docs/)
-+ Testing :
+
+##### Testing :
   + [TDD with Mocha](http://webapplog.com/tdd/)
   + [Testing MongoDB under Node/Express](https://www.terlici.com/2014/09/15/node-testing.html)
   + [Testing MongoDB models with Mocha](http://rob.conery.io/2012/02/25/testing-your-model-with-mocha-mongo-and-nodejs/)

@@ -1,10 +1,12 @@
 {
-  "name": "cg_web",
+  "name": "cgweb",
   "version": "1.0.0",
-  "description": "Website for Clemence Guillaume",
+  "description": "Website for Clémence Guillaume",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "unit": "karma start test/karma.conf.js",
+    "feature": "protractor test/protractor.conf.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,17 @@
   "dependencies": {
     "body-parser": "^1.13.3",
     "express": "^4.13.3",
+    "http-server": "^0.9.0",
     "mongoose": "^4.4.19"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "jasmine-core": "^2.4.1",
+    "jasmine-spec-reporter": "^2.4.0",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-spec-reporter": "0.0.26",
+    "protractor": "^3.3.0"
   }
 }
