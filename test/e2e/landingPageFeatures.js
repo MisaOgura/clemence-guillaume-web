@@ -15,4 +15,20 @@ describe('CGWeb: Landing page', function() {
       expect(browser.getCurrentUrl()).toEqual(portfolioUrl)
     });
   });
+
+  it('has a link to Contact page', function() {
+    linkToContact = element(by.id('contact-link'))
+    contactUrl = 'http://localhost:8080/contact'
+    linkToContact.click().then(function() {
+      expect(browser.getCurrentUrl()).toEqual(contactUrl)
+    });
+  });
+
+  it('has a link to About page', function() {
+    linkToAbout = element(by.id('about-link'))
+    aboutUrl = 'http://localhost:8080/about'
+    linkToAbout.click().then(function() {
+      expect(browser.getCurrentUrl()).toEqual(aboutUrl)
+    });
+  });
 });
