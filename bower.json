@@ -1,0 +1,18 @@
+{
+  "name": "cg_web",
+  "description": "Website for Clemence Guillaume",
+  "main": "index.js",
+  "authors": [
+    "Misa Ogura"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/MisaOgura/clemence-guillaume-web",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -20,5 +20,8 @@
     "body-parser": "^1.13.3",
     "express": "^4.13.3",
     "mongoose": "^4.4.19"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9"
   }
 }
