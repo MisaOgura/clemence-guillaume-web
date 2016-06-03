@@ -8,11 +8,20 @@ describe('CGWeb: Landing page', function() {
     expect(browser.getTitle()).toEqual('Clémence Guillaume')
   });
 
+  it('has a link to the Home page', function() {
+    linkToHome = element(by.id('home-link'));
+    homeUrl = 'http://localhost:8080/'
+    linkToHome.click().then(function() {
+      expect(browser.getCurrentUrl()).toEqual(homeUrl)
+    });
+  });
+
   it('has a link to Portfolio page', function() {
     linkToPortfolio = element(by.id('portfolio-link'))
     portfolioUrl = 'http://localhost:8080/portfolio'
     linkToPortfolio.click().then(function() {
-      expect(browser.getCurrentUrl()).toEqual(portfolioUrl)
+      expect(browser.getCurrentUrl()).toEqual(homeUrl);
+      expect()
     });
   });
 
