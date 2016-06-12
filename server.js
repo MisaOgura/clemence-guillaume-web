@@ -3,7 +3,7 @@ var bodyParser  =   require("body-parser");
 var app         =   express();
 var path        =   require("path");
 var routes      =   require("./app/routes.js")(app);
-var mongoOp     =   require("./models/mongo");
+// var mongoOp     =   require("./models/mongo");
 
 var port        =   process.env.PORT || 8080;
 
