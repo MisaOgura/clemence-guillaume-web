@@ -1,14 +1,19 @@
 var cgwebApp = angular.module('cgwebApp', ['ngRoute'])
 
-  .config(['$routeProvider', '$locationProvider',
+  cgwebApp.config(['$routeProvider', '$locationProvider',
     function($routeProvider, $locationProvider) {
       $routeProvider
-        .when('', function() {
-          templateUrl: 'partials/home.html',
-          controller: 'js/controllers/homeController'
+        .when('/', {
+          templateUrl: 'partials/home.html'
         })
-        .when('/portfolio', function() {
+        .when('/portfolio', {
           templateUrl: 'partials/portfolio.html'
+        })
+        .when('/contact', {
+          templateUrl: 'partials/contact.html'
+        })
+        .when('/about', {
+          templateUrl: 'partials/about.html'
         })
         .otherwise({ redirectTo: '/' });
 
