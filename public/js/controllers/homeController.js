@@ -1,4 +1,3 @@
-cgwebApp.controller('homeController', function() {
-  var vm = this;
-  vm.heading = "Home";
+cgwebApp.controller('homeController', function($scope) {
+  $scope.heading = "Home";
 });

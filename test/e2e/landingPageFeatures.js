@@ -15,6 +15,7 @@ describe('CGWeb: Landing page', function() {
     linkToHome.click().then(function() {
       var content = element(by.css('[ng-view]')).getText();
       expect(browser.getCurrentUrl()).toEqual(homeUrl);
+      expect(content).toMatch('Home');
       expect(content).toMatch(homeMessage);
     });
   });
